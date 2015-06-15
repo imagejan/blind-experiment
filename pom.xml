@@ -13,7 +13,7 @@
 
 	<groupId>imagejan</groupId>
 	<artifactId>Blind_Experiment</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0-SNAPSHOT</version>
 
 	<name>plugins/Blind_Experiment.jar</name>
 	<description>A Maven project implementing a plugin to blind/unblind data</description>
