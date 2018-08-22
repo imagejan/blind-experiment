@@ -1,75 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>imagejan</groupId>
-		<artifactId>pom-imagejan</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>23.1.1</version>
 	</parent>
 
-	<groupId>imagejan</groupId>
-	<artifactId>Blind_Experiment</artifactId>
+	<groupId>sc.fiji</groupId>
+	<artifactId>blind-experiment</artifactId>
 	<version>0.2.0-SNAPSHOT</version>
 
-	<name>plugins/Blind_Experiment.jar</name>
-	<description>A Maven project implementing a plugin to blind/unblind data</description>
-
-	<dependencies>
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-			<version>${imagej1.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>fiji-lib</artifactId>
-			<version>2.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.4</version>
-		</dependency>
-	</dependencies>
-
-	<build>
-		<resources>
-			<resource>
-				<directory>${basedir}/src/main/resources</directory>
-			</resource>
-			<resource>
-				<directory>${project.build.sourceDirectory}</directory>
-			</resource>
-		</resources>
-		<testResources>
-			<testResource>
-				<directory>${basedir}/src/test/resources</directory>
-			</testResource>
-			<testResource>
-				<directory>${project.build.testSourceDirectory}</directory>
-			</testResource>
-		</testResources>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>java</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<mainClass>imagejan.plugins.Blind_Experiment</mainClass>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	<name>Blind Experiment</name>
+	<description>An ImageJ plugin to blind/unblind data</description>
+	<url>https://github.com/imagejan/blind-experiment</url>
+	<inceptionYear>2013</inceptionYear>
+	<organization>
+		<name>N/A</name>
+		<url>N/A</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -80,12 +36,68 @@
 			<organization></organization>
 			<organizationUrl></organizationUrl>
 			<roles>
-				<role>architect</role>
+				<role>founder</role>
+				<role>lead</role>
 				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
 	</developers>
+	<contributors>
+		<contributor>
+			<name>None</name>
+		</contributor>
+	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>Image.sc Forum</name>
+			<archive>https://forum.image.sc/</archive>
+		</mailingList>
+	</mailingLists>
 
+	<scm>
+		<connection>scm:git:git://github.com/imagejan/blind-experiment</connection>
+		<developerConnection>scm:git:git@github.com:imagejan/blind-experiment</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/imagejan/blind-experiment</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/imagejan/blind-experiment/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Jan Eglinger</license.copyrightOwners>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>fiji-lib</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
 </project>
