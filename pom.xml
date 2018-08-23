@@ -10,7 +10,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>blind-experiment</artifactId>
-	<version>0.2.0-SNAPSHOT</version>
+	<version>0.2.0</version>
 
 	<name>Blind Experiment</name>
 	<description>An ImageJ plugin to blind/unblind data</description>
@@ -32,9 +32,9 @@
 			<id>imagejan</id>
 			<name>Jan Eglinger</name>
 			<email>jan.eglinger@gmail.com</email>
-			<url></url>
-			<organization></organization>
-			<organizationUrl></organizationUrl>
+			<url />
+			<organization />
+			<organizationUrl />
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -63,7 +63,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/imagejan/blind-experiment</connection>
 		<developerConnection>scm:git:git@github.com:imagejan/blind-experiment</developerConnection>
-		<tag>HEAD</tag>
+		<tag>blind-experiment-0.2.0</tag>
 		<url>https://github.com/imagejan/blind-experiment</url>
 	</scm>
 	<issueManagement>
