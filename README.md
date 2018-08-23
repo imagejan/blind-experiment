@@ -1,4 +1,5 @@
 [![](https://travis-ci.org/imagejan/blind-experiment.svg?branch=master)](https://travis-ci.org/imagejan/blind-experiment)
+[![DOI](https://zenodo.org/badge/145730230.svg)](https://zenodo.org/badge/latestdoi/145730230)
 
 Blind Experiment
 ================
