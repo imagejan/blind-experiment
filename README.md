@@ -26,5 +26,5 @@ as accessible at http://www.gnu.org/licenses/gpl.html
 Authors:
 -------
 
-Jan Eglinger
-Andrew Valente
+* Jan Eglinger
+* Andrew Valente
