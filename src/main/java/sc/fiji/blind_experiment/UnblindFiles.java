@@ -1,4 +1,4 @@
-package imagejan.plugins;
+package sc.fiji.blind_experiment;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,8 +10,6 @@ import org.scijava.log.LogService;
 import org.scijava.plugin.Parameter;
 import org.scijava.plugin.Plugin;
 import org.scijava.prefs.PrefService;
-
-import ij.IJ;
 
 /**
  * Blind Files Plugin Command

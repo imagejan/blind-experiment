@@ -1,4 +1,4 @@
-package imagejan.plugins;
+package sc.fiji.blind_experiment;
 
 import org.scijava.command.Command;
 import org.scijava.plugin.Parameter;

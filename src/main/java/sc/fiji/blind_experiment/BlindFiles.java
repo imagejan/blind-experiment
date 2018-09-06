@@ -1,4 +1,4 @@
-package imagejan.plugins;
+package sc.fiji.blind_experiment;
 
 import java.io.File;
 import java.io.FileOutputStream;

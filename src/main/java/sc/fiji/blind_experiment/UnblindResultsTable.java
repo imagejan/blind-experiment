@@ -1,4 +1,4 @@
-package imagejan.plugins;
+package sc.fiji.blind_experiment;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +11,6 @@ import org.scijava.plugin.Parameter;
 import org.scijava.plugin.Plugin;
 import org.scijava.prefs.PrefService;
 
-import ij.IJ;
 import ij.measure.ResultsTable;
 
 /**
