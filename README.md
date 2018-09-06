@@ -15,6 +15,7 @@ Usage:
 * *Analyze > Blind Experiment > Blind Files* to mask filenames before analysis
 * *Analyze > Blind Experiment > Unblind Files* to unmask filenames after analysis
 * *Analyze > Blind Experiment > Unblind Results Table* to unmask labels of a results table
+* *Analyze > Blind Experiment > Record Comment* to record a comment as a results table entry
 
 License:
 --------
@@ -22,7 +23,8 @@ License:
 This plugin is licensed under the terms of the GNU General Public License (GPL)
 as accessible at http://www.gnu.org/licenses/gpl.html
 
-Author:
+Authors:
 -------
 
 Jan Eglinger
+Andrew Valente
