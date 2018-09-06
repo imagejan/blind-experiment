@@ -4,17 +4,17 @@
 Blind Experiment
 ================
 
-This is a small plugin to assist with a blind analysis of image data.
+This is a small set of plugins to assist with a blind analysis of image data.
 Image filenames can be masked with random UUIDs. The UUID - filename
 associations are saved in a properties (props) file. This file can
-then be used to unmask filenames or results from the image analysis.
+then be used to unblind filenames or results from the image analysis.
 
 Usage:
 ------
 
-* *Plugins > Blind Experiment > Mask filenames* to mask filenames before analysis
-* *Plugins > Blind Experiment > Unmask filenames* to unmask filenames after analysis
-* *Plugins > Blind Experiment > Unmask results table* to unmask labels of a results table
+* *Analyze > Blind Experiment > Blind Files* to mask filenames before analysis
+* *Analyze > Blind Experiment > Unblind Files* to unmask filenames after analysis
+* *Analyze > Blind Experiment > Unblind Results Table* to unmask labels of a results table
 
 License:
 --------
