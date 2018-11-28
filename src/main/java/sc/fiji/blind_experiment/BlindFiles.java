@@ -96,7 +96,7 @@ public class BlindFiles implements Command {
 	 * @param args
 	 * @throws Exception
 	 */
-	public static void main(final String... args) throws Exception {
+	public static void main(final String[] args) throws Exception {
         // Create the ImageJ application context with all available services
     	// Context context = new Context();
     	final ImageJ ij = new ImageJ();
